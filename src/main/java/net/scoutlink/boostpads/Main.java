@@ -19,9 +19,9 @@ import org.bukkit.util.Vector;
 import java.io.File;
 
 public class Main extends JavaPlugin implements Listener {
-    double heightBoost = 0.201D;
-    double dirMultiplier = 3.8D;
-    double maxBoost = 10.0D;
+    private double heightBoost = 0.201D;
+    private double dirMultiplier = 3.8D;
+    private double maxBoost = 100.0D;
 
     public Main() {
     }
